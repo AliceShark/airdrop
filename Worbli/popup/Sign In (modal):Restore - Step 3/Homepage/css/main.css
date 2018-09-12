@@ -1,0 +1,261 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  cursor: default;
+  background-color: #061649;
+}
+
+.container {
+  width: 100%;
+  max-width: 1440px;
+  min-width: 280px;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid rgba(188, 197, 226, 0.5);
+}
+
+header, .content, .img-bg, footer {
+  background: #061649;
+}
+
+.content, .img-bg {
+  padding: 0 5%;
+}
+
+.header .logo {
+  width: 118px;
+  text-align: left;
+}
+
+header li {
+  display: inline-block;
+  margin: 0 2.5%;
+  text-align: center;
+  list-style-type: none;
+}
+
+header .menu a {
+  font-family: "Lato Black";
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #7d89b2;
+}
+
+header .menu a:hover {
+  color: #ffffff;
+}
+
+header .sign-in {
+  display: inline-block;
+}
+
+header .sign-in a {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #7d89b2;
+}
+
+header .sign-in a:hover {
+  color: #ffffff;
+}
+
+header .join-now {
+  display: inline-block;
+}
+
+header .join-now button {
+  width: 130px;
+  height: 50px;
+  border-radius: 3px;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #43507b;
+  border: none;
+}
+
+header .join-now button:focus {
+  outline: none;
+}
+
+.content {
+  padding: 5% 0;
+}
+
+.content .caption {
+  max-width: 956px;
+  width: 100%;
+  min-width: 280px;
+  margin: auto;
+  text-align: left;
+  font-family: "Lato Black";
+  font-size: 370%;
+  font-weight: 900;
+  color: #ffffff;
+  line-height: 70px;
+}
+
+.content .border-bottom {
+  border-bottom: 5px solid #98c9a2;
+}
+
+.content .information .text {
+  color: #bcc5e2;
+  font-family: "Open Sans";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+}
+
+.content .information .file a {
+  color: #ffffff;
+  font-family: "Lato Black";
+  font-size: 16px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.content .information .large {
+  color: #98c9a2;
+  font-size: 24px;
+}
+
+
+
+
+.form {
+  min-width: 280px;
+  width: 95%;
+  max-width: 427px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  padding: 33px 0 40px 0;
+}
+
+.form-container {
+  width: 82%;
+  max-width: 330px;
+  min-width: 230px;
+  margin: auto;
+}
+
+.form .headline {
+  color: #0d2039;
+  font-family: "Lato Black";
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 36px;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.form .headline .small {
+  font-family: Lato;
+  font-weight: 400;
+}
+
+.form .sub-caption {
+  color: #798392;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.form .form-email input {
+  width: 100%;
+  height: 50px;
+  border-radius: 3px;
+  border: 1px solid #a9b7cb;
+  padding-left: 5%;
+  color: #0d2039;
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.form .form-email input:focus {
+  outline: none;
+}
+
+.form .text {
+  color: #798392;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.form button {
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 2px 4px rgba(188, 188, 188, 0.54);
+  border-radius: 3px;
+  background-color: #1a1a75;
+  color: #ffffff;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.form button:focus {
+  outline: none;
+}
+
+
+.img-bg .img {
+  max-width: 1275px;
+  width: 95%;
+  min-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.img-bg img {
+  width: inherit;
+}
+
+footer {
+  border-top: 1px solid rgba(188, 197, 226, 0.5);
+}
+
+footer .inc, .address, .email {
+  color: #bcc5e2;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+}
+
+footer .email a{
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 5%;
+  text-align: left;
+  list-style-type: none;
+}
+
+footer .social a {
+  font-size: 155%;
+  color: rgba(130, 140, 174, 0.5);
+}
+
+footer .social a:hover {
+  color: #bcc5e2;
+}
